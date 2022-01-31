@@ -85,9 +85,6 @@ function Run() {
     
     if (shell.yoff < -0.005) {
       newPass(shell);
-      //document.getElementById("box").innerHTML = "<audio src='bum.mp3' type='audio/mpeg' id='audio'></audio>";
-      //document.getElementById("audio").play();
-      //document.getElementById("box").innerHTML ="";
       
       audio.volume=0.2;
       audio.play();
